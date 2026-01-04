@@ -1,0 +1,40 @@
+// 将键绑定放在此文件中以覆盖默认值
+[
+  // =========================== Editor ===========================
+  // 将选中文本转换为大写、小写和标题大小写
+  {
+    "key": "ctrl+alt+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+shift+alt+u",
+    "command": "editor.action.transformToTitlecase"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "-markdown-preview-enhanced.runAllCodeChunks",
+    "when": "editorLangId == 'markdown'"
+  },
+  // =========================== Cursor ===========================
+  // 重新映射光标移动到行首和行尾
+  {
+    "key": "alt+a",
+    "command": "cursorHome",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "cursorEnd",
+    "when": "editorTextFocus"
+  },
+  // =========================== Markdown ===========================
+  // 切换代码块
+  {
+    "key": "alt+oem_3",
+    "command": "markdown.extension.editing.toggleCodeBlock"
+  }
+]
