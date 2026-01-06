@@ -36,12 +36,5 @@
   {
     "key": "alt+oem_3",
     "command": "markdown.extension.editing.toggleCodeBlock"
-  },
-  // =========================== 代码片段 ===========================
-  // 使用 Tab 键接受建议
-  {
-    "key": "tab",
-    "command": "acceptSelectedSuggestion",
-    "when": "editorTextFocus && suggestWidgetVisible && !editorHasSelection"
   }
 ]
