@@ -33,6 +33,13 @@
 		],
 		"description": "LaTeX super and sub in markdown"
 	},
+	"Insert Date and Day Name": {
+		"prefix": "todayy",
+		"body": [
+			"${CURRENT_DAY_NAME} ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"
+		],
+		"description": "Insert current date and day name"
+	},
 	"Insert Date": {
 		"prefix": "today",
 		"body": [
