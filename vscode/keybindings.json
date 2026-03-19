@@ -31,6 +31,17 @@
     "command": "cursorEnd",
     "when": "editorTextFocus"
   },
+  // 重新映射光标移动到文档顶部和底部
+  {
+    "key": "alt+u",
+    "command": "cursorTop",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+shift+u",
+    "command": "cursorBottom",
+    "when": "textInputFocus"
+  },
   // =========================== Markdown ===========================
   // 切换代码块
   {
