@@ -47,5 +47,21 @@
   {
     "key": "alt+oem_3",
     "command": "markdown.extension.editing.toggleCodeBlock"
+  },
+  // =========================== cursor jump ===========================
+  // 使用 Jumpy 插件的快捷键来跳转到单词和行
+  {
+    "key": "ctrl+oem_1",
+    "command": "extension.jumpy-word",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+oem_1",
+    "command": "-breadcrumbs.focus",
+    "when": "breadcrumbsPossible && breadcrumbsVisible"
+  },
+  {
+    "key": "ctrl+shift+oem_1",
+    "command": "extension.jumpy-line"
   }
 ]
