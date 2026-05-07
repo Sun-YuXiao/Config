@@ -3,6 +3,7 @@
 # ==========================================
 export PATH="$PATH:/mnt/d/software/vscode/Microsoft VS Code/bin"
 export EDITOR='code --wait'
+alias ex='/mnt/c/Windows/explorer.exe'
 
 # ==========================================
 # WSL2 Proxy & ROS Network Configuration
