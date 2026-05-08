@@ -1,0 +1,6 @@
+rules:
+# User custom rules
+- DOMAIN-SUFFIX,*.adobe.io,REJECT
+- DOMAIN-SUFFIX,*.adobestats.io,REJECT
+- DOMAIN-SUFFIX,adobe.io,REJECT
+- DOMAIN-SUFFIX,adobestats.io,REJECT
