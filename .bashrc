@@ -75,6 +75,7 @@ alias tmuxk='tmux kill-session -t'
 alias tmuxn='tmux new -s'
 alias tmuxa='tmux attach -t'
 alias tmuxks='tmux kill-server'
+alias tmuxr='tmux rename-session -t'
 
 # ==========================================
 # yazi
