@@ -7,5 +7,12 @@
       "/*----------------------------------------------------------------------------*/"
     ],
     "description": "Generate a section header comment with pre-filled spaces"
+  },
+  "Separator Line": {
+    "prefix": "line", 
+    "body": [
+      "/*----------------------------------------------------------------------------*/"
+    ],
+    "description": "Generate a single separator line"
   }
 }
