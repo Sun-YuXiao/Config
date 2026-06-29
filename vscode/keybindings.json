@@ -19,6 +19,14 @@
     "command": "-markdown-preview-enhanced.runAllCodeChunks",
     "when": "editorLangId == 'markdown'"
   },
+  {
+    "key": "insert",
+    "command": "-editor.action.toggleOvertypeInsertMode"
+  },
+  {
+    "key": "alt+i",
+    "command": "editor.action.toggleOvertypeInsertMode"
+  },
   // =========================== Cursor ===========================
   // 重新映射光标移动到行首和行尾
   {
